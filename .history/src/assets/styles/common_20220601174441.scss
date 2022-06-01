@@ -1,0 +1,24 @@
+// 共通CSS
+
+html {
+    height: 100%;
+    body {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+}
+
+.te {
+    color: $secondaryColor;
+}
