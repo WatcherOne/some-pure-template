@@ -2,7 +2,7 @@
   "name": "dingding-pc",
   "version": "0.1.0",
   "private": true,
-  "keywords": ["vue2", "sass"],
+  "keywords": ["vue2", "scss"],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
