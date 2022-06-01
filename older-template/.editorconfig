@@ -1,0 +1,11 @@
+# 帮助开发者在不同的编辑器和IDE之间定义和维护一致的代码风格
+# root = true 标识该文件的性质，停止查找.editorconfig文件
+root = true
+
+[*]
+charset = utf-8
+indent_style = space            # 缩进按键 tab/space
+indent_size = 2                 # 指定每级缩进的列数
+end_of_line = lf                # 定义换行符 lf/cr/crlf
+insert_final_newline = true     # 为true表示使文件以一个空白行结尾
+trim_trailing_whitespace = true # 为true表示会除去换行行首的任意空白字符

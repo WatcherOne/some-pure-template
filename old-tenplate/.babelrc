@@ -1,0 +1,11 @@
+// 添加该配置文件用于 部分ES6代码无法获得解析的情况
+// 使用stage-2来处理ES6中对象无法使用...解构的问题
+// 使用transform-runtime来优化我们代码的利用率
+{
+  "presets": [
+    ["env", { "module": false }],
+    "stage-2"
+  ],
+  "plugins": ["transform-runtime"],
+  "comments": false   // 指生成的文件不产生注释
+}
